@@ -57,7 +57,7 @@ export default function ProductView() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="gap-2 bg-white/80 hover:bg-white border-white/30 hover:border-primary/30 transition-all"
+                  className="gap-2 bg-white/80 hover:bg-gradient-to-r from-banner to-primary border-white/30 hover:border-primary/30 transition-all"
                 >
                   <Home className="h-4 w-4" />
                   <span className="hidden sm:inline">Home</span>
