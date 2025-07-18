@@ -232,7 +232,7 @@ export default function ForecastView() {
                         className={`w-full justify-start h-auto p-3 text-xs transition-all ${
                           selectedChild?.id === child.id
                             ? "bg-gradient-to-r from-banner to-primary text-white hover:from-primary hover:to-banner"
-                            : "bg-white/80 hover:bg-white border-white/50 hover:border-primary/30"
+                            : "bg-white/80 hover:bg-slate-500 border-white/50 hover:border-primary/30"
                         }`}
                         onClick={() => setSelectedChild(child)}
                       >

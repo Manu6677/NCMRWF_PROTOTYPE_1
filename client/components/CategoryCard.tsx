@@ -18,7 +18,7 @@ export function CategoryCard({ category }: CategoryCardProps) {
   const isFirstCategory = category.id === "forecast-models";
   const cardColors = isFirstCategory
     ? {
-        bg: "bg-gradient-to-br from-banner to-orange-600",
+        bg: "bg-gradient-to-br from-primary to-cyan-700",
         iconBg: "bg-white/20",
         textColor: "text-white",
         badgeBg: "bg-white/20",
